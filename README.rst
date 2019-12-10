@@ -17,12 +17,6 @@
    </h2>
 
 =============
-Support me 💰 :
-=============
-   - On Paypal : https://www.paypal.com/paypalme2/SofianeHamlaoui
-   - BTC Addresse : 1NR2oqsuevvWJwzCyhBXmqEA5eYAaSoJFk
-   
-=============
 Overview 📙 :
 =============
 
