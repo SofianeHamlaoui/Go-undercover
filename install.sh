@@ -53,25 +53,25 @@ function install {
     echo -e "\e[32m[-] Installing .... !\e[0m"
     echo ""
     #Theme
-    rsync -a Windows-10 /usr/share/themes
+    rsync -a --progress Windows-10 /usr/share/themes
     chmod 775 /usr/share/themes/Windows-10
     #Icons
     rsync -a Windows-10-Icons /usr/share/icons
     chmod 775 /usr/share/icons/Windows-10-Icons
     #Files
-    rsync -a go-undercover /usr/share
-    rsync -a go-undercover.svg /usr/share/icons
-    rsync -a go-undercover.sh /usr/bin/go-undercover
-    rsync -a go-undercover.desktop /usr/share/applications/
-    chmod 755 /sur/share/icons/go-undercover.svg
+    rsync -a --progress go-undercover /usr/share
+    rsync -a --progress go-undercover.svg /usr/share/icons
+    rsync -a --progress go-undercover.sh /usr/bin/go-undercover
+    rsync -a --progress go-undercover.desktop /usr/share/applications/
+    chmod 755 /usr/share/icons/go-undercover.svg
     chmod 775 /usr/share/go-undercover
     chmod 775 /usr/bin/go-undercover
     chmod 775 /usr/share/applications/go-undercover.desktop
     # Cleaning
-    #ON VERA
+    #Kech nhar
     # RUN
+    echo ""
     echo -e "\e[32m[-] Run ${g}go-undercover${endc} from terminal or from ${b}Applications Menu${endc} .... !\e[0m"
-    read ""
 }
 
 #main
