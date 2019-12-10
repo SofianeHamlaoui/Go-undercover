@@ -26,7 +26,7 @@ Support me 💰 :
 Overview 📙 :
 =============
 
-Everyone was happy with this new "Kali Undercover mode" on the new Kali Linux 2019.4 release. So the idea is : Why only KAli Linux, let's do it for all Linux distros ! Here comes Go-UnderCover <3. Same code,Same role, but not for the only distro.
+Everyone was happy with this new "Kali Undercover mode" on the new Kali Linux 2019.4 release. So the idea is : Why only Kali Linux, let's do it for all Linux distros ! Here comes Go-UnderCover <3. Same code,Same role, but not for one only distro.
 
 
 =============
