@@ -33,7 +33,7 @@ Everyone was happy with this new "Kali Undercover mode" on the new Kali Linux 20
 Screenshots 💻 :
 =============
 
-
+.. image:: https://i.imgur.com/s6vPBwD.png
 
 ============
 Demos 💻 :
