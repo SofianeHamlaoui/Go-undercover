@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Go Undercover Mode
+Exec=go-undercover
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/go-undercover.svg
+OnlyShowIn=XFCE;
+Keywords=windows;theme;desktop;
+Comment=
+Path=
+StartupNotify=false
