@@ -44,6 +44,9 @@ enable_undercover() {
 			'[ -f ~/.config/"$1" ] && mv ~/.config/"$1" ~/.config/"${1}.undercover"' _ {} \;)
 	cp -r $CONF_FILES/* ~/.config/
 	[ -f ~/.face ] && mv ~/.face ~/.face.undercover
+	printf ': undercover && export PS1='\''C:${PWD//\//\\\\\}> '\''\n' >> ~/.bashrc
+	printf ': undercover && export PS1='\''C:${PWD//\//\\\\}> '\''\n' >> ~/.zshrc
+	printf ': undercover && new_line_before_prompt=no\n' >> ~/.zshrc
 }
 
 disable_undercover() {
@@ -56,6 +59,7 @@ disable_undercover() {
 		'mv "$1" "$(echo $1 | sed 's/.undercover//')"' _ {} \;
 	[ -f ~/.face.undercover ] && mv ~/.face.undercover ~/.face
 	rm $DIR/lock
+	sed -i -e '/: undercover/d' ~/.bashrc ~/.zshrc
 }
 
 if [ -f $DIR/lock ]; then
@@ -65,4 +69,3 @@ if [ -f $DIR/lock ]; then
 else
 	enable_undercover
 fi
-
