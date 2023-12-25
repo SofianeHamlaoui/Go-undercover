@@ -46,7 +46,7 @@ function checkroot {
 }
 
 function install {
-    showlogo && checkroot
+    showlogo &&
     clear
     showlogo
     echo ""
