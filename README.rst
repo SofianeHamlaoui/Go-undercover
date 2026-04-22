@@ -56,7 +56,14 @@ Installation 🛠️ :
                   git clone https://github.com/SofianeHamlaoui/Go-undercover && cd Go-undercover
                   chmod +x ./install.sh
                   ./install.sh
-                  
+=============
+Uninstall ❌:
+=============
+
+         .. code-block:: console
+
+                 chmod +x ./uninstall.sh
+                 ./uninstall.sh                  
 =============
 Contact Me 🤙 :
 =============       
